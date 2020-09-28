@@ -39,7 +39,6 @@ ul, li {
   display:flex;
   position: relative;
   background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 4px;
   align-items: center;
 }
 
@@ -63,6 +62,7 @@ ul, li {
   margin: auto auto;
   display: flex;
   height: 30px;
+  text-align: center;
 }
 .main > li a{
   border-left:2px solid rgba(255, 255, 255, 0.15);
@@ -77,7 +77,6 @@ ul, li {
   padding: 10px 15px;
   font-size: 100%;
   transition: background-color 0.5s ease-in-out;
-
   font-family: "Raleway", sans-serif;
 }
 .main a:hover {
@@ -91,6 +90,7 @@ ul, li {
 .menu1 li a {
   background-color: rgba(23, 23, 50, 0.7);
   padding: 10px 0;
+  text-align: center;
 }
 .menu1 li a:hover{
   background-color: #631818;
@@ -161,16 +161,16 @@ ul, li {
   color:#fff;
 }
 .btn:hover {
-	background: #E3755C;
+	background: #4D5AD5;
   transition-duration: 1s;
   transition-delay: 0s, 1s;
-	border: 1px solid #E3755C;
+	border: 1px solid #4D5AD5;
 }
 
 
 .bottom_t {
   padding-top: 30px;
-  background-color:#E3755C, no-repeat center top/cover;
+  background-color:#4D5AD5, no-repeat center top/cover;
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
